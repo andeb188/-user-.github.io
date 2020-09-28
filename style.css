@@ -1,0 +1,195 @@
+html,body {
+	margin: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Peddana', serif;
+    background-color: bisque;
+}
+
+.line1{
+    font-size: 75px;
+    text-align: right;
+    letter-spacing: 0.5em;
+}
+
+.line2{
+    font-size: 40px;
+    text-align: left;
+    color: darkgoldenrod;
+    font-weight: bold;
+}	
+
+.line3{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line4{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line5{
+    font-size: 75px;
+    text-align: right;
+    letter-spacing: 0.4em;
+}
+
+.line6{
+    font-size: 40px;
+    text-align: left;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.line7{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line8{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line9{
+    font-size: 75px;
+    text-align: right;
+    letter-spacing: 0.3em;
+}
+
+.line10{
+    font-size: 40px;
+    text-align: left;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.line11{
+   font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0 
+}
+
+.line12{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line13{
+    font-size: 75px;
+    text-align: right;
+    letter-spacing: 0.3em;
+}
+.line14{
+    font-size: 40px;
+    text-align: left;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.line15{
+   font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0 
+}
+
+.line16{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+.line17{
+    font-size: 75px;
+    text-align: right;
+    letter-spacing: 0.2em;
+}
+
+.line18{
+    font-size: 40px;
+    text-align: left;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.line19{
+   font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0 
+}
+
+.line20{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line21{
+    font-size: 75px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.line22{
+    font-size: 40px;
+    text-align: left;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.line23{
+   font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0 
+}
+
+.line24{
+    font-size: 25px;
+    text-align: center;
+    color: #776f6e;
+    font-weight: bolder;
+    text-transform: lowercase;
+    line-height: 0
+}
+
+.line25{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.one{
+	width:80%; 		
+	height:30vh; 		
+	margin:auto; 		
+	display:flex; 		
+	align-items:center; 		
+	justify-content:center; 		
+	overflow-y:hidden;
+}
+
+img {
+	width:100%;
+}
+
+.container{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center; 
+	align-content: center;
+	vertical-align: middle;
+}
+
+.two { 
+	height:250px;     
+	width:100%;
+} 

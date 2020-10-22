@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flexbox</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<style type="text/css">
+	html, body {
+		margin:0;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		font-family: 'Roboto', sans-serif;
+	}
+	.section-flex {
+		width:98%;
+		height:100vh;
+		padding:1%;
+		display:inline-flex;
+		flex-wrap:nowrap
+	}
+	.main {
+		background-color:#E9E6E6;
+		width:70vw;
+		flex-grow:4;
+		margin-right:1%;
+
+	}
+	.main h3 {
+		font-size: 75px;
+		float: right;
+	}
+	.main h2 {
+		font-size: 75px;
+	}
+	.main h1 {
+		font-size: 300px;
+		margin: 0;
+	}
+	.side img{ 
+		width: 100em
+		height: 100em;
+	 }
+
+	.side {
+		background-color:#E9E6E6;
+		width:30vw;
+		flex-grow:1;
+	}
+
+	.side img {
+		width: 
+	}
+
+	@media screen and (max-width:1440px){
+		.section-flex {
+			flex-wrap:wrap;
+		}
+		.main {
+			margin-right:0%;
+			margin-bottom:1%;
+			height:60vh;
+		}
+		.side {
+			height:40vh;
+		}
+	}
+</style>
+<body>
+
+<div class='section-flex'>
+	<div class='main'>
+		<h2>This is a</h2>
+		<h1>Simple</h1>
+		<h3>Design.</h3>
+	</div>
+<div class='side'>
+	<img src="ellipse 3.png">
+	<img src="ellipse 3.png">
+	<img src="ellipse 3.png">
+	<img src="ellipse 3.png">
+
+	</div>
+</div>
+
+</body>
+</html>

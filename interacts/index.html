@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Everything and Nothing</title>
+
+
+<style type="text/css">	
+html, body {
+	background-color: #ede3df;
+}
+#eyes {
+	position: absolute;
+	left: 207px;
+	top: 256px;
+}
+span {
+	position: absolute;
+	left: 207px;
+	top: 256px;
+}
+#frame {
+	position: absolute;
+	left: 167px;
+	top: 195px;
+	box-sizing: border-box;
+}
+
+#fade-in {
+opacity: 10%;
+transition:opacity 0.8s
+color: #86a7cc;
+}
+
+#fade-in:hover {
+opacity:100%;
+transition:opacity 0.5s
+}
+
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#fade-in {
+ 	position: absolute;
+    width: 750px;
+    height: 100px;
+    top: -15px;
+    left: 175px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color: #b89c90;
+ }
+
+#fade-in2 {
+	opacity: 5%;
+}
+#fade-in2:hover {
+color: #627ea8;
+transition: 3s;
+opacity: 90%;
+}
+
+#one {
+	position: absolute;
+    width: 750px;
+    height: 100px;
+    top: 25px;
+    left: 180px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color: #825c5f;
+    opacity: 90%
+}
+
+#two { 
+	position: absolute;
+	top: 535px;
+	left: 740px;
+	font-size: 60px;
+}
+#two:hover {
+	transform: translate(5px, -2px) rotate(-1deg);
+	x-transition: all 1s ease-in-out;
+  	animation: ani 1.7s infinite;
+}
+
+@keyframes ani {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 720px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+#three {
+	position: absolute;
+    width: 1200px;
+    height: 100px;
+    top: 50px;
+    left: 210px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+#three:hover {
+	font-family: cursive;
+	font-size: 50px;
+
+}
+#four { 
+	position: absolute;
+    top: 535px;
+    left: 210px;
+    font-size: 50px;
+}
+
+#four:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+	color: #757229;
+	letter-spacing: 2em;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#five {
+	position: absolute;
+	width: 900px;
+    height: 100px;
+    top: -5px;
+    left: 500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+#five:hover {
+	animation: 5s pulse ease-in-out;
+}	
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(15);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+#six { 
+	position: absolute;
+	top: 600px;
+	left: 200px;
+	font-size: 50px;
+}
+
+#six:hover {
+}
+
+#seven {
+	position: absolute;
+    width: 1300px;
+    height: 100px;
+    top: 50px;
+    left: 155px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+#seven:hover {
+	box-shadow:
+    inset 0 0 50px #fff,     
+    inset 20px 0 80px #fff,   
+    inset -20px 0 80px #fff,  
+    inset 20px 0 300px #fff,  
+    inset -20px 0 300px #fff, 
+    0 0 50px #fff,           
+    -10px 0 80px #fff,       
+    10px 0 80px #fff; 
+}
+        
+#eight { 
+	position: absolute;
+	top: 535px;
+	left: 700px;
+	font-size: 50px;
+}
+
+a img { 
+	display:none; 
+}
+a:hover img {
+ display:block; 
+}
+ 
+#s {
+	position: absolute;
+    left: 83.75em;
+    top: 38.65em;
+}
+
+#s:hover img{
+	animation: 7s pulse ease-in-out;
+}
+
+ @keyframes pulse {
+	0% {
+		transform: scale(10);
+	}
+	50% {
+		transform: scale(150);
+	}
+	100% {
+		transform: scale(10);
+	}
+
+</style>
+</head>
+
+<body>
+	<div id="fade-in"><p>THE EYES THAT YEARNED FOR WARMTH </p></div>
+	<div id="eyes"><img src="eyes.png" width="1068px" height="261px"></div>
+	<div id="frame"><img src="frame.png" width="1205px" height="376px" ></div>
+	<div id="fade-in2" style="position: absolute;top: 535px;left: 740px;font-size: 60px;"onclick="firstClick()"><p> RATHER THAN COLDNESS.</p></div>
+	<a href="book" style="font-size: 0.1em;position: absolute;left: 150em;top: 230em;opacity: 100%; color: #ede3df"; >THE EYES THAT SEARCHED FOR A CURE<img src="book.png" style="width:1400px;height:1000px; position: absolute;top: -225em; left: -100em;"></a>
+	<div id="one" style="display:none;">THE EYES THAT SEARCHED FOR A CURE</div>
+	<div id="two" style="display:none;"onclick="secondClick()"><p>BUT ONLY FOUND SIMULATION</p></div>
+	<div id="three" style="display:none;"><p>THE EYES THAT FOUND THEIR ROLE</p></div>
+	<div id="four" style="display:none;"onclick="thirdClick()"><p> BUT ONLY FOUND THE RETURN OF REALITY</p></div>
+	<div id="five" style="display:none;"><p>THE EYES THAT ESCAPED</p></div>
+	<div id="six" style="display:none;"onclick="fourthClick()"><<a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-characters/" target="_blank"> BUT DISGUISED THEMSELVES AS MORE EYES </a></div>
+	<div id="seven" style="display:none;"><p>THE EYES THAT WERE ONCE LOST SHEEP</p></div>
+	<div id="eight" style="display:none;"><p>BUT FOUND ITS SHEPPARD.</p></div>
+	<div id="s"style="display:none; size: 1em;"> <img src="sheep.png.jpg" style=" border-radius: 50%;height: 0.5em; width: 0.5em;" /> </div>
+
+</body>
+<script>
+	function firstClick() {
+    	document.getElementById("one").style.display = "block";
+   		document.getElementById("two").style.display = "block";
+   		document.getElementById("fade-in").style.display = "none";
+   		document.getElementById("fade-in2").style.display = "none";
+	}
+	function secondClick() {
+    	document.getElementById("three").style.display = "block";
+   		document.getElementById("four").style.display = "block";
+   		document.getElementById("one").style.display = "none";
+   		document.getElementById("two").style.display = "none";
+	}
+	function thirdClick() {
+    	document.getElementById("five").style.display = "block";
+   		document.getElementById("six").style.display = "block";
+   		document.getElementById("three").style.display = "none";
+   		document.getElementById("four").style.display = "none";
+	}
+	function fourthClick() {
+    	document.getElementById("seven").style.display = "block";
+   		document.getElementById("eight").style.display = "block";
+   		document.getElementById("s").style.display="block";
+   		document.getElementById("five").style.display = "none";
+   		document.getElementById("six").style.display = "none";
+	}
+
+
+</script>
+
+
+</html>

@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>CD Foundations Graveyard</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 <style type="text/css">
 html,body{
 	background-color: #031229;
+  font-family: 'Creepster', cursive;
+  text-align: center;
 }
  
 .moon {
@@ -13,10 +17,28 @@ html,body{
   animation-duration: 15s;
   animation-fill-mode: forwards;
 }
-
 @keyframes moonrise {
-  0% {left:425px; top:850px;}
-  100% {left:425px; top:0px;}
+  0% {top:850px;}
+  100% {top:0px;}
+}
+
+.moonimage:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 .title {
@@ -24,6 +46,10 @@ html,body{
   animation: fadein 2s ease-in;
   animation-delay: 13s;
   animation-fill-mode: forwards;
+  color:#7a0000;
+  top: 350px;
+  position: relative;
+  z-index: 1;
 }
 @keyframes fadein {
   0% {opacity:0%;}
@@ -32,17 +58,13 @@ html,body{
 </style>
 </head>
 
-<h1 class="title">
-  <p style="margin-left: 500px;color:#7a0000; ">Welcome to the CD:Foundations Graveyard</p>
-</h1>
+<h1 class="title">Welcome to the CD:Foundations Graveyard</h1>
 <div class="moon">
   <a href="finalproj2.html">
-  <img src="moon.png" style="width:50%">
+  <img class="moonimage" src="moon.png" style="width:50%;">
 </a>
 </div>
 
-
-</div>
 
 </body>
 </html>

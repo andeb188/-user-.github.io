@@ -4,11 +4,112 @@
 	<title>Dead Collections</title>
 <style type="text/css">
 html,body{
-	background-color: #0F3D08;
+	background-image: url(graveyard.png);
+	background-size: cover;
 }
+
+.tomb4:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	20% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 </style>
 </head>
 <body>
+<div class="tomb1">
+	<a href="https://andeb188.github.io/CD-Foundations-Interaction/week2/">
+		<img src="tomb1.png" style="
+    left: 400px;
+    top: 200px;
+    width:18%;
+    position: absolute;
+">
+	</a>
+</div>
 
+<div class="tomb2">
+	<a href="https://andeb188.github.io/CD-Foundations-Interaction/etxt.html">
+		<img src="tomb2.png" style="
+    left: 970px;
+    top: 225px;
+    width: 18%;
+    transform: scaleX(-1);
+    position: absolute;
+">
+	</a>
+</div>
+
+<div class="tomb3">
+	<a href="https://andeb188.github.io/CD-Foundations-Interaction/ldproj/light.html">
+		<img src="tomb3.png"style="
+    left: 130px;
+    top: 700px;
+    width: 18%;
+    transform: scaleX(-1.25);
+    position: absolute;
+">
+	</a>
+</div>
+
+<div class="tomb4">
+	<a href="https://andeb188.github.io/CD-Foundations-Interaction/svgproj/svgtype.html">
+		<img src="tomb4.png"
+		style="
+    left: 615px;
+    top: 655px;
+    width: 18%;
+    transform: scaleY(1.2);
+    position: absolute;
+">
+	</a>
+</div>
+
+<div class="tomb5">
+	<a href="https://andeb188.github.io/CD-Foundations-Interaction/interacts/index.html">
+		<img src="tomb5.png"
+		style="
+    left:1220px;
+    top: 700px;
+    width: 18%;
+    position: absolute;
+">
+	</a>
+</div>
+
+<p class="spooks" style="
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+">Click for spooks.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "ghostie.png");
+  x.setAttribute("width", "304");
+  x.setAttribute("height", "228");
+  x.setAttribute("alt", "boo");
+  document.body.appendChild(x);
+}
+</script>
 </body>
 </html>
